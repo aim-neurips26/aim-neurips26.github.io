@@ -185,7 +185,7 @@ li { margin-bottom: 0.4rem; }
 }
 
 /* Two background layers that slowly crossfade: the abstract network visual
-   and the Sydney harbour view (workshop location). */
+   and the Atlanta skyline (workshop location). */
 .hero-bg {
   position: absolute;
   inset: 0;
@@ -202,8 +202,8 @@ li { margin-bottom: 0.4rem; }
 
 .hero-bg-b {
   background-image:
-    linear-gradient(135deg, rgba(2, 6, 17, 0.68), rgba(8, 10, 22, 0.72)),
-    url("images/sydney.jpg");
+    linear-gradient(135deg, rgba(2, 6, 17, 0.5), rgba(8, 10, 22, 0.55)),
+    url("images/atlanta.jpg");
   opacity: 0;
   animation: hero-crossfade 10s ease-in-out infinite;
 }
