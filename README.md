@@ -1,4 +1,4 @@
-# NeurIPS 2026 Workshop — AI Agents for Biomedical Imaging and Multimodal Clinical Data
+# NeurIPS 2026 Workshop — Agentic Intelligence for Medical (AIM) Imaging and Multimodal Clinical Data
 
 Official website for the NeurIPS 2026 Workshop on AI Agents for Biomedical Imaging and
 Multimodal Clinical Data, in collaboration with the [MELBA journal](https://www.melba-journal.org/).
