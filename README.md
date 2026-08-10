@@ -1,4 +1,4 @@
-# NeurIPS 2026 Workshop — Agentic Intelligence for Medical (AIM) Imaging and Multimodal Clinical Data
+# NeurIPS 2026 Workshop — Agentic Intelligence for Medical (AIM-NeurIPS) Imaging and Multimodal Clinical Data
 
 Official website for the NeurIPS 2026 Workshop on AI Agents for Biomedical Imaging and
 Multimodal Clinical Data, in collaboration with the [MELBA journal](https://www.melba-journal.org/).
@@ -43,8 +43,8 @@ Pushing to the `main` branch automatically publishes the site via GitHub Pages
 ## Key dates currently on the site
 
 - Call for papers released: July 2026
-- Paper submission deadline: **August 29, 2026 (AoE)**
+- Paper submission deadline: **August 29, 2026, 11:59 PM AoE**
 - Notification of acceptance: **no later than September 29, 2026 (AoE)**
 - Public schedule posted: October 2026
-- Workshop: December 2026 (exact date TBA)
+- Workshop: December 12, 2026
 - MELBA special issue submissions: target January 2027

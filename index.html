@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="NeurIPS 2026 Workshop on Agentic Intelligence for Medical (AIM) Imaging and Multimodal Clinical Data, in collaboration with the MELBA journal - call for papers, program, speakers, and submission information.">
-  <title>Agentic Intelligence for Medical (AIM) Imaging and Multimodal Clinical Data - NeurIPS 2026 Workshop</title>
+  <meta name="description" content="NeurIPS 2026 Workshop on Agentic Intelligence for Medical (AIM-NeurIPS) Imaging and Multimodal Clinical Data, in collaboration with the MELBA journal - call for papers, program, speakers, and submission information.">
+  <title>Agentic Intelligence for Medical (AIM-NeurIPS) Imaging and Multimodal Clinical Data - NeurIPS 2026 Workshop</title>
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,17 +45,17 @@
     <div class="hero-content">
       <div class="hero-center">
         <a class="hero-conference" href="https://neurips.cc/" target="_blank" rel="noopener">NeurIPS 2026 Workshop</a>
-        <h1 class="typewriter" id="typeTitle" aria-label="Agentic Intelligence for Medical (AIM) Imaging and Multimodal Clinical Data">
-          <span class="type-ghost" aria-hidden="true">Agentic Intelligence for Medical (AIM) Imaging and Multimodal Clinical Data</span>
+        <h1 class="typewriter" id="typeTitle" aria-label="Agentic Intelligence for Medical (AIM-NeurIPS) Imaging and Multimodal Clinical Data">
+          <span class="type-ghost" aria-hidden="true">Agentic Intelligence for Medical (AIM-NeurIPS) Imaging and Multimodal Clinical Data</span>
           <span class="type-live" aria-hidden="true"><span class="type-text"></span><span class="type-caret"></span></span>
         </h1>
-        <p class="hero-acronym">AIM 2026</p>
+        <p class="hero-acronym">AIM-NeurIPS 2026</p>
       </div>
       <div class="hero-bottom">
         <p class="hero-tagline">Methods and benchmarks for AI agents in biomedical imaging and multimodal clinical data.</p>
         <p class="hero-meta">
           <!-- TODO: confirm exact date and location once announced by NeurIPS -->
-          <span>📅 December 12 or 13, 2026</span>
+          <span>📅 December 12, 2026</span>
           <span>📍 Atlanta, Georgia</span>
           <span>🏛 One-day, in-person workshop</span>
         </p>
@@ -64,7 +64,7 @@
           <a href="https://openreview.net/group?id=NeurIPS.cc/2026/Workshop/AIM" class="btn btn-outline" target="_blank" rel="noopener">Submit a Paper</a>
         </div>
         <p class="hero-deadline">
-          Paper submission deadline: August 29, 2026 (AoE)
+          Paper submission deadline: August 29, 2026, 11:59 PM AoE
         </p>
       </div>
     </div>
@@ -123,23 +123,22 @@
           organized around a set of concrete open questions:
         </p>
         <ul>
-          <li>How should agents <strong>invoke and sequence specialized image-analysis tools</strong> - segmentation, registration, reconstruction - in ways that are reliable, auditable, and clinically meaningful?</li>
-          <li>How should rich <strong>multimodal clinical context</strong> (reports, EHR variables, laboratory findings, waveforms, longitudinal records) be <strong>grounded in image evidence</strong>?</li>
-          <li>How should <strong>intermediate outputs</strong> of multi-step analyses be surfaced, verified, and corrected before downstream steps consume them?</li>
-          <li>How should full systems be <strong>evaluated</strong> - not just on final accuracy, but on reasoning quality, uncertainty calibration, error recovery, robustness, and readiness for <strong>human oversight</strong>?</li>
+          <li><strong>Tool Orchestration:</strong> How should agents dynamically invoke, sequence, and verify specialized image-analysis software (segmentation, registration, reconstruction pipelines) in reliable, auditable, and clinically meaningful ways?</li>
+          <li><strong>Multimodal Grounding &amp; Active Retrieval:</strong> How should rich clinical context (EHR records, lab values, waveforms, prior reports) be actively queried, grounded in, and cross-referenced against pixel-level image evidence?</li>
+          <li><strong>Intermediate Verification &amp; Error Recovery:</strong> How should intermediate agentic outputs across a multi-step analysis be surfaced, verified, and corrected before downstream steps consume them?</li>
+          <li><strong>Agentic Evaluation &amp; Safety:</strong> How should full agentic systems be evaluated beyond static final accuracy - focusing on tool execution correctness, trajectory quality, uncertainty calibration, error recovery, and readiness for human oversight?</li>
         </ul>
         <h3>Topics of Interest</h3>
         <ul class="topic-list">
-          <li><strong>AI agents</strong> for image analysis, measurement, annotation, reporting, and cohort discovery</li>
-          <li><strong>Multimodal systems</strong> combining images with reports, EHR data, notes, waveforms, omics, video, or longitudinal records</li>
-          <li><strong>Tool-using systems</strong> that invoke segmentation, registration, reconstruction, retrieval, visualization, uncertainty estimation, or statistical analysis</li>
-          <li><strong>Medical vision-language and foundation models</strong> for radiology, pathology, and clinical imaging</li>
-          <li><strong>Multimodal reasoning and generation</strong> grounded in medical images and clinical text</li>
-          <li><strong>Clinical decision support</strong> and agentic reasoning in clinical workflows</li>
-          <li><strong>Evaluation</strong> of grounding, reasoning, uncertainty, error recovery, robustness, and reproducibility</li>
-          <li><strong>Interpretability, grounding, and trustworthiness</strong> of agentic medical AI systems</li>
-          <li><strong>Human-in-the-loop systems</strong> for expert guidance and quality control</li>
-          <li><strong>Datasets, benchmarks, and software</strong>, and position papers defining reusable tasks for the community</li>
+          <li><strong>Agentic Vision-Language &amp; Foundation Models:</strong> agentic capabilities, multi-step reasoning trajectories, tool orchestration, and goal execution in medical vision-language and foundation models</li>
+          <li><strong>Tool-Using AI Agents:</strong> autonomous agents that dynamically select, invoke, sequence, and verify specialized biomedical tools (e.g., segmentation, registration, reconstruction, retrieval, visualization, or statistical analysis)</li>
+          <li><strong>Agentic Multimodal Integration:</strong> multi-step agentic systems that actively search, retrieve, and cross-reference medical images with clinical reports, EHR records, lab values, waveforms, omics, and longitudinal histories</li>
+          <li><strong>Multi-Step Reasoning, Grounding &amp; Planning:</strong> goal decomposition, explicit step-by-step reasoning, dynamic plan revision, and evidence grounding for biomedical image interpretation</li>
+          <li><strong>Clinical Workflows &amp; Agentic Decision Support:</strong> tool-using agents for interactive clinical decision support, image measurement, reporting, dataset annotation, and cohort discovery</li>
+          <li><strong>Human-in-the-Loop &amp; Interactive Oversight:</strong> agent oversight mechanisms, interactive expert guidance, mid-pipeline verification, and user intervention in multi-step analyses</li>
+          <li><strong>Evaluation &amp; Benchmarks for AI Agents:</strong> protocols and benchmarks evaluating tool selection accuracy, reasoning trajectories, uncertainty calibration, error recovery, robustness, and safety across multi-step execution</li>
+          <li><strong>Trustworthy &amp; Auditable AI Agents:</strong> auditable execution logs, interpretability of intermediate agent steps, safety guardrails, and failure recovery in clinical agentic workflows</li>
+          <li><strong>Datasets, Environments &amp; Infrastructure:</strong> benchmarks, simulated clinical environments, tool API standards, and open-source software frameworks for building and evaluating agentic medical AI</li>
         </ul>
       </div>
     </section>
@@ -153,16 +152,23 @@
           via the MELBA special issue.
         </p>
         <p>
-          We solicit submissions on all topics related to AI agents for biomedical imaging and
-          multimodal clinical data (see <a href="#about">topics above</a>). Appropriate
-          submissions include <strong>methods papers, benchmark or dataset papers,
-          software/resource papers, demos, and position papers</strong>.
+          We invite original and innovative work at the intersection of AI agents, medical
+          imaging, tool orchestration, and multimodal clinical data analysis (see
+          <a href="#about">topics above</a>). Appropriate submissions include
+          <strong>methods papers, dataset/benchmark papers, software resource papers, and
+          position papers</strong>.
+        </p>
+        <h3>Scope &amp; Differentiation</h3>
+        <p>
+          To maintain a focused venue distinct from broad medical foundation model or
+          healthcare AI workshops, <strong>all submissions must feature an explicit agentic
+          component</strong>. Static, single-step models or standard fine-tuning without
+          agentic workflows are out of scope.
         </p>
         <h3>Submission Tracks</h3>
         <ul>
-          <!-- TODO: page limits are placeholders - final limits under discussion -->
-          <li><strong>Full papers</strong> - up to 9 pages (tentative; final page limits TBA), with unlimited references.</li>
-          <li><strong>Short papers</strong> - up to 4 pages (tentative; final page limits TBA), with unlimited references.</li>
+          <li><strong>Full papers</strong> - up to 9 pages, with unlimited references.</li>
+          <li><strong>Short papers</strong> - up to 4 pages, with unlimited references.</li>
           <li>Papers must use the
             <!-- TODO: update link when the NeurIPS 2026 style files page goes live -->
             <a href="https://neurips.cc/Conferences/2026/PaperInformation/StyleFiles" target="_blank" rel="noopener">NeurIPS 2026 paper template and guidelines</a>.</li>
@@ -202,7 +208,7 @@
           </div>
           <div class="date-card date-accent">
             <div class="date-event">Paper submission deadline</div>
-            <div class="date-value">August 29, 2026 (AoE)</div>
+            <div class="date-value">August 29, 2026, 11:59 PM AoE</div>
           </div>
           <div class="date-card">
             <div class="date-event">Notification of acceptance</div>
@@ -212,9 +218,9 @@
             <div class="date-event">Public schedule posted</div>
             <div class="date-value">October 2026</div>
           </div>
-          <div class="date-card date-tba">
+          <div class="date-card">
             <div class="date-event">NeurIPS workshop</div>
-            <div class="date-value">December 12 or 13, 2026 (final date TBA) <!-- TODO --></div>
+            <div class="date-value">December 12, 2026</div>
           </div>
           <div class="date-card date-tba">
             <div class="date-event">MELBA special issue submissions</div>
@@ -422,9 +428,9 @@
             <!-- TODO: update link when the NeurIPS 2026 style files page goes live -->
             <a href="https://neurips.cc/Conferences/2026/PaperInformation/StyleFiles" target="_blank" rel="noopener">NeurIPS 2026 LaTeX template and guidelines</a>.</li>
           <li>Anonymize your submission (double-blind review).</li>
-          <li>Full papers: up to 9 pages; short papers: up to 4 pages (tentative; final limits TBA - unlimited references).</li>
+          <li>Full papers: up to 9 pages; short papers: up to 4 pages (unlimited references).</li>
           <li>Accepted papers will be hosted on OpenReview and on this website; submissions are non-archival, and extended versions may later be submitted to the MELBA special issue.</li>
-          <li>Submit by <strong>August 29, 2026 (AoE)</strong>.</li>
+          <li>Submit by <strong>August 29, 2026, 11:59 PM AoE</strong>.</li>
         </ul>
       </div>
     </section>
@@ -450,13 +456,13 @@
           <a href="https://neurips.cc/" target="_blank" rel="noopener" class="footer-logo" aria-label="NeurIPS">
             <img src="images/neurips-logo.svg" alt="NeurIPS">
           </a>
-          <div class="footer-title">Agentic Intelligence for Medical (AIM) Imaging and Multimodal Clinical Data</div>
+          <div class="footer-title">Agentic Intelligence for Medical (AIM-NeurIPS) Imaging and Multimodal Clinical Data</div>
           <p>NeurIPS 2026 Workshop, in collaboration with the
             <a href="https://www.melba-journal.org/" target="_blank" rel="noopener">MELBA journal</a>.</p>
         </div>
         <div class="footer-section">
           <div class="footer-title">Key dates</div>
-          <p>Submissions: August 29, 2026 (AoE)<br>Notifications: by September 29, 2026</p>
+          <p>Submissions: August 29, 2026, 11:59 PM AoE<br>Notifications: by September 29, 2026</p>
         </div>
         <div class="footer-section">
           <div class="footer-title">Links</div>
@@ -469,7 +475,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>Copyright © NeurIPS 2026. All rights reserved | Agentic Intelligence for Medical (AIM) Imaging and Multimodal Clinical Data</p>
+        <p>Copyright © NeurIPS 2026. All rights reserved | Agentic Intelligence for Medical (AIM-NeurIPS) Imaging and Multimodal Clinical Data</p>
       </div>
     </div>
   </footer>
