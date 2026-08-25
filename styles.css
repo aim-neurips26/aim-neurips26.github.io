@@ -510,7 +510,7 @@ li { margin-bottom: 0.4rem; }
 
 .person-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
 
-.person-card h3 { margin: 0.9rem 0 0.15rem; font-size: 1.05rem; font-weight: 700; }
+.person-card h3 { margin: 0.9rem 0 0.15rem; font-size: 0.94rem; font-weight: 700; }
 
 .person-photo {
   width: 128px;
