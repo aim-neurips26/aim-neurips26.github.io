@@ -43,7 +43,7 @@ Pushing to the `main` branch automatically publishes the site via GitHub Pages
 ## Key dates currently on the site
 
 - Call for papers released: July 2026
-- Paper submission deadline: **August 29, 2026, 11:59 PM AoE**
+- Paper submission deadline: **September 6, 2026, 11:59 PM AoE** (extended from August 29)
 - Notification of acceptance: **no later than September 29, 2026 (AoE)**
 - Public schedule posted: October 2026
 - Workshop: December 12, 2026
