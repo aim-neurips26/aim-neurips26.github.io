@@ -1,4 +1,4 @@
-# NeurIPS 2026 Workshop — Agentic Intelligence for Medical (AIM-NeurIPS) Imaging and Multimodal Clinical Data
+# NeurIPS 2026 Workshop - Agentic Intelligence for Medical (AIM-NeurIPS) Imaging and Multimodal Clinical Data
 
 Official website for the NeurIPS 2026 Workshop on AI Agents for Biomedical Imaging and
 Multimodal Clinical Data, in collaboration with the [MELBA journal](https://www.melba-journal.org/).
@@ -6,20 +6,20 @@ Hosted on GitHub Pages at <https://aim-neurips26.github.io>.
 
 ## Structure
 
-The site is a single static page — no backend, no build system.
+The site is a single static page - no backend, no build system.
 
 | File | Purpose |
 |------|---------|
 | `index.html` | All content, organized into sections (About, Call for Papers, Dates, Speakers, Program, Organizers, Committee, Submission, Contact) |
 | `styles.css` | All styling. Colors and fonts are CSS variables at the top of the file |
-| `script.js` | Minimal JS — only the mobile hamburger menu |
+| `script.js` | Minimal JS - only the mobile hamburger menu |
 | `images/` | Headshots (400×400 JPG), MELBA logo, and the hero background (`hero-bg.svg`) |
 
 ## How to edit
 
 1. Open `index.html` and find the section you want to change (each section is marked
    with an HTML comment banner, e.g. `<!-- ===== Invited Speakers ===== -->`).
-2. Remaining placeholders are marked with `<!-- TODO -->` comments — search for `TODO`:
+2. Remaining placeholders are marked with `<!-- TODO -->` comments - search for `TODO`:
    workshop date/venue, OpenReview link, contact email, program committee list.
 3. To add a person, duplicate a `.person-card` block inside the `.people-grid`, add a
    400×400 photo to `images/`, and fill in name, affiliation, topic, and link.
