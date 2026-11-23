@@ -678,3 +678,27 @@ li { margin-bottom: 0.4rem; }
   .hero-conference { animation: none; }
   .hero-acronym { animation: none; }
 }
+
+/* ===================== Program papers ===================== */
+
+.session-time { font-weight: 600; color: var(--gray-500); font-size: 0.85em; margin-left: 0.5rem; }
+
+.papers-group {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--accent-dark);
+  margin: 1.25rem 0 0.6rem;
+}
+
+.paper {
+  margin: 0 0 0.9rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--gray-200);
+}
+
+.paper-title { font-weight: 600; color: var(--gray-800); }
+.paper-id { color: var(--primary); font-weight: 700; margin-right: 0.45rem; }
+.paper-authors { font-size: 0.88rem; color: var(--gray-500); }
