@@ -704,3 +704,12 @@ li { margin-bottom: 0.4rem; }
 .paper-authors { font-size: 0.88rem; color: var(--gray-500); }
 
 .talk-title { font-weight: 600; font-style: italic; font-size: 0.9rem; color: var(--gray-700); margin: 0 0 0.3rem; }
+
+/* Invited speakers: all five on one row on desktop */
+.people-grid-speakers { grid-template-columns: repeat(5, 1fr); gap: 1rem; }
+.people-grid-speakers .person-card { padding: 1.25rem 0.75rem; }
+.people-grid-speakers .person-photo { width: 110px; height: 110px; }
+@media (max-width: 1024px) {
+  .people-grid-speakers { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+  .people-grid-speakers .person-photo { width: 128px; height: 128px; }
+}
